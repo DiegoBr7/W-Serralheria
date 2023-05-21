@@ -59,8 +59,8 @@ main{
 .manual-navigation{
     position: absolute;
     width: 800px;
-    margin-left: 200px;
-    margin-top: 150px;
+    margin-left: 235px;
+    margin-top: 280px;
     display: flex;
     justify-content: center;
 }
@@ -153,7 +153,7 @@ nav {
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
-    font-family: ;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .navbar a:hover {
@@ -363,4 +363,151 @@ bottom: 20px;
  html{
     width: 100%;
  }
+}
+
+
+/* ----------------EFEITO PARALAX----------------- */
+
+
+.wrapper{
+
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.container{
+
+ width: 100%;
+ max-width: 720px;
+ margin: 0 auto;
+ padding: 0 20px;
+}
+
+
+section.module p{
+margin-bottom: 40px;
+
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+
+}
+
+section.module.content{
+    padding: 40px 0;
+    background: #ece7d5;
+}
+
+section.module.paralax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 200px;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+
+
+}
+
+section.module.paralax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    
+}
+
+section.module.paralax-1{
+    background-image: url(./SERRALHERIA\ P.jpg);
+}
+
+
+section.module.paralax h1{
+   color: #fff;
+   text-align: center;
+   font-size: 78px;
+   z-index: 50;
+   text-transform: uppercase;
+
+}
+
+
+/* -------------------------SERVICOS--------------------------- */
+
+
+
+.categorias2{
+    background: rgb(236, 236, 236);
+    height: 100%;
+    width: 100%; 
+}
+
+.categorias2 h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 500;
+    color: gray;
+  
+}
+
+
+
+.categorias-container2{
+    display: inline-flex;
+    justify-content: space-between;
+
+
+}
+
+.categorias2 img{
+    border: 10px solid #fff;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+   
+}
+
+.categorias-group2 {
+    margin-left: 6rem;
+}
+
+.categorias-group2 a p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 17;
+    font-family: 'Fjalla One', sans-serif;
+    color: gray;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  
+   transition: 1s;
+}
+.categorias-group2 a{
+    text-decoration: none;
+    transition: 2s;
+}
+.categorias-group2 p:hover{
+    color: black;
 }
