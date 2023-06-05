@@ -475,6 +475,7 @@ section.module.paralax h1{
 
 
 .categorias-container2{
+    
     display: inline-flex;
     justify-content: space-between;
 
@@ -482,6 +483,7 @@ section.module.paralax h1{
 }
 
 .categorias2 img{
+    margin-top: 25px;
     border: 10px solid #fff;
     border-radius: 50%;
     width: 300px;
@@ -511,3 +513,167 @@ section.module.paralax h1{
 .categorias-group2 p:hover{
     color: black;
 }
+
+/*------------------- Section Antes FOOTER----------------------------- */
+
+
+/* --------------------------FOOTER------------------------------------ */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #555555;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  
+  /* ---------------------section--RODAPE-------------------------- */
+   
+  .rodape{
+    background-color: #555555;
+    width: 100%;
+    height: 400px;
+  }
+
+  .rodape h2{
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .divisao{
+    color: #fff;
+    margin-top: 60px;
+    display: flex;
+    flex-direction:row;
+    width: 1000px;
+    justify-content: center;
+    margin-left: 6rem;
+    gap: 3rem;
+    
+  }
+  .divisao img{
+    width: 120px;
+    height: 120px;
+    border: 0.1rem solid #000;
+    border-radius: 50%;
+   justify-content: center;
+  
+  }
+
+
+  #equipe{
+    margin-left: 8rem;
+  }
+  #entrega{
+    margin-left: 4rem;
+  }
+#mao{
+   margin-left: 5rem;
+}
+  .divisao p {
+font-size: 12px;
+  }
+
+
+  /*----------------------- endereco --------------------------- */
+
+   .menu{
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+   }
+
+   .menu  li {
+    margin-top: 7.5px;
+   }
+  .row{
+   display: flex;
+   justify-content:center;
+   color: #555555;
+   list-style: none;
+   height: 100%;
+   
+  }
+
+   .span2  a{
+    text-decoration: none;
+    color: #555555;
+    list-style: none;
+   margin-left: 3rem;
+   margin-top: 2rem;
+   transition: 0.5s;
+  }  
+  .span2  a:hover{
+    color: white;
+  }
+
+  .span2 h4{
+    margin-left: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+   .span3  a{
+    text-decoration: none;
+    color: #555555;
+    list-style: none;
+    margin-left: 3rem;
+    transition: 0.5s;
+  }  
+  .span3 a:hover{
+    color: white;
+  }
+   .span4  a{
+    text-decoration: none;
+    color:#555555;
+    list-style: none;
+    transition: 0.5s;
+
+  }  
+  .span4 a:hover{
+    color: white;
+  }
+  .span4 h4{
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+  .span4 strong{
+    color: white;
+    margin-bottom: 1rem;
+  }
+  li{
+    list-style: none;
+  }
+
+
+
+  /* ----------------------SECAO FOOTER------------------------- */
+
+ #bootom{
+    display:inline-block;
+    width: 100%;
+ }
